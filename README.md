@@ -3,9 +3,10 @@
 > **Alex Nguyễn - Frontend Developer Intern Portfolio**  
 > Website CV Cá Nhân hiện đại, responsive 100% được xây dựng bằng **React.js**, **React Router v6**, **Framer Motion** và **Vanilla CSS**.
 
+Link Demo:https://portfolio-nqh.vercel.app/
 ---
 
-## 🌟 Tính Năng Nổi Bật
+##  Tính Năng Nổi Bật
 
 1. **Routing & Điều Hướng (React Router v6)**:
    - 5 Routes chính: `/` (Trang chủ), `/resume` (Hồ sơ CV), `/skills` (Kỹ năng), `/projects` (Dự án), `/contact` (Liên hệ) và trang `/404` custom.
@@ -38,7 +39,7 @@
 
 ---
 
-## 🛠️ Công Nghệ Sử Dụng
+##  Công Nghệ Sử Dụng
 
 - **Frontend Core**: React 18, Vite 5, JavaScript ES6+
 - **Routing**: React Router v6
@@ -49,7 +50,7 @@
 
 ---
 
-## 📁 Cấu Trúc Thư Mục
+##  Cấu Trúc Thư Mục
 
 ```text
 src/
@@ -81,7 +82,7 @@ src/
 
 ---
 
-## 🚀 Hướng Dẫn Cài Đặt & Khởi Chạy
+##  Hướng Dẫn Cài Đặt & Khởi Chạy
 
 ### 1. Cài đặt các gói phụ thuộc (Dependencies)
 ```bash

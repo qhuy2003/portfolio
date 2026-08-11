@@ -184,7 +184,7 @@ const Resume = () => {
                 )}
 
                 {/* ACTIVITIES / VOLUNTEER SECTION */}
-                {(activeTab === 'all' || activeTab === 'activities') && (
+                {/* {(activeTab === 'all' || activeTab === 'activities') && (
                   <div className="timeline-section">
                     <h3 className="timeline-category-title">
                       <HeartHandshake size={22} className="cat-icon accent" />
@@ -218,7 +218,7 @@ const Resume = () => {
                       </motion.div>
                     ))}
                   </div>
-                )}
+                )} */}
               </div>
             </div>
           </div>
