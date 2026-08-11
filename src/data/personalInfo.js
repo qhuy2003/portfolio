@@ -2,7 +2,7 @@ export const personalInfo = {
   fullName: "NGUYEN QUOC HUY",
   title: "WEB PROGRAMMING",
   avatarUrl: "/Huy.jpg",
-  shortIntro: "Sinh viên năm 4 ngành CNTT tại Đại học Công nghệ Sài Gòn, có nền tảng  về phát triển Web, đặc biệt là Back-end và Full-stack.",
+  shortIntro: "Sinh viên  ngành CNTT tại Đại học Công nghệ Sài Gòn, có nền tảng  về phát triển Web, đặc biệt là Back-end và Full-stack.",
   
   bio: {
     dob: "2003",
