@@ -13,8 +13,8 @@ const Footer = () => {
         <div className="footer-top">
           <div className="footer-brand">
             <NavLink to="/" className="footer-logo">
-              <span className="logo-icon">AN</span>
-              <span>Alex<span className="text-gradient">.Dev</span></span>
+              <span className="logo-icon">NQH</span>
+              <span><span className="text-gradient">.Dev</span></span>
             </NavLink>
             <p className="footer-bio">
               {personalInfo.shortIntro}
@@ -53,13 +53,10 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>© {currentYear} {personalInfo.fullName}</p>
-          <p className="footer-crafted">
-            Thiết kế với <Heart size={14} className="heart-icon" /> bằng React & Framer Motion.
-          </p>
+  
         </div>
       </div>
     </footer>
   );
 };
-
 export default Footer;

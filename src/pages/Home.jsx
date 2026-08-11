@@ -11,11 +11,25 @@ import './Home.css';
 const Home = () => {
   const featuredProjects = projectsData.filter(p => p.featured).slice(0, 3);
 
-  const handleDownloadCV = () => {
-    // Create a mock download action with feedback
-    const link = document.createElement('a');
-    link.href = '#';
-    alert('Đang chuẩn bị tệp CV_Alex_Nguyen_Frontend_Developer.pdf để tải xuống!');
+  // Try to download CV from public folder (place CV_Nguyen_Quoc_Huy.pdf in /public)
+  const handleDownloadCV = async () => {
+    const cvPath = '/CV_Nguyen_Quoc_Huy.pdf';
+    try {
+      const res = await fetch(cvPath, { method: 'HEAD' });
+      if (res.ok) {
+        const link = document.createElement('a');
+        link.href = cvPath;
+        link.setAttribute('download', 'CV_Nguyen_Quoc_Huy.pdf');
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+      } else {
+        alert('Không tìm thấy tệp CV trên server. Vui lòng đặt file vào /public/ với tên CV_Nguyen_Quoc_Huy.pdf');
+      }
+    } catch (err) {
+      console.error('Download CV error:', err);
+      alert('Có lỗi khi tải CV. Vui lòng thử lại sau.');
+    }
   };
 
   return (
@@ -106,8 +120,8 @@ const Home = () => {
               <div className="stat-badge stat-badge-2 glass-card">
                 <Award size={20} className="stat-icon alt" />
                 <div>
-                  <div className="stat-number">GPA 3.65</div>
-                  <div className="stat-text">ĐHQGHN - UET</div>
+                  <div className="stat-number">GPA 3.0</div>
+                  <div className="stat-text">ĐHCNSG - STU</div>
                 </div>
               </div>
             </div>

@@ -258,7 +258,7 @@ const Contact = () => {
                         id="message"
                         name="message"
                         rows="5"
-                        placeholder="Xin chào Alex, công ty chúng tôi ấn tượng với hồ sơ của bạn và muốn mời bạn tham gia phỏng vấn..."
+                        placeholder="Xin chào Huy, công ty chúng tôi ấn tượng với hồ sơ của bạn và muốn mời bạn tham gia phỏng vấn..."
                         value={formData.message}
                         onChange={handleChange}
                         aria-invalid={!!errors.message}

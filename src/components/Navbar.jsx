@@ -55,7 +55,7 @@ const Navbar = () => {
     <header className={`navbar-header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         {/* Brand Logo */}
-        <NavLink to="/" className="navbar-logo" aria-label="Alex Nguyễn Portfolio Trang Chủ">
+        <NavLink to="/" className="navbar-logo" aria-label="NQH Portfolio Trang Chủ">
           <span className="logo-icon">NQH</span>
           <span className="logo-text"><span className="text-gradient">.Dev</span></span>
         </NavLink>

@@ -7,7 +7,7 @@ export const projectsData = [
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
     category: "React",
     tags: ["React.js", "Framer Motion", "Recharts", "CSS Modules"],
-    githubUrl: "https://github.com/alexnguyen-dev/devpulse-dashboard",
+    githubUrl: "https://github.com/qhuy2003/",
     featured: true
   },
   {
@@ -18,7 +18,7 @@ export const projectsData = [
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
     category: "Fullstack",
     tags: ["React.js", "Redux Toolkit", "Node.js", "Tailwind CSS"],
-    githubUrl: "https://github.com/alexnguyen-dev/nexus-ecommerce",
+    githubUrl: "https://github.com/qhuy2003/LuanVan",
     demoUrl: "https://luanvan111.vercel.app/",
     featured: true
   },
@@ -30,7 +30,7 @@ export const projectsData = [
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
     category: "UI/UX",
     tags: ["React.js", "Framer Motion", "LocalStorage", "Lucide Icons"],
-    githubUrl: "https://github.com/alexnguyen-dev/ai-prompt-studio",
+    githubUrl: "https://github.com/qhuy2003/",
     demoUrl: null, // Trạng thái chưa triển khai demo để kiểm tra UX disabled state + tooltip
     featured: true
   },
@@ -42,7 +42,7 @@ export const projectsData = [
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80",
     category: "React",
     tags: ["React.js", "HTML5 Drag&Drop", "Vanilla CSS", "Vite"],
-    githubUrl: "https://github.com/alexnguyen-dev/zentask-kanban",
+    githubUrl: "https://github.com/qhuy2003/LuanVan",
     featured: false
   }
 ];
