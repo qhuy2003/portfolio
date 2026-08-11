@@ -101,4 +101,4 @@ npm run build
 
 ---
 
-© 2026 Alex Nguyễn. All rights reserved.
+© 2026  NguyenQuocHuy
