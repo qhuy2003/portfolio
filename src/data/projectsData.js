@@ -13,7 +13,7 @@ export const projectsData = [
   {
     id: "b2b-ecommerce",
     title: "B2B - E-Commerce Web ",
-    shortDesc: "Trang web thương mại điện tử công nghệ với giỏ hàng, lọc sản phẩm thông minh và thanh toán giả lập.",
+    shortDesc: "Trang web thương mại điện tử công nghệ với giỏ hàng, lọc sản phẩm thông minh và thanh toán online.",
     longDesc: "Web ứng dụng mua sắm thiết bị công nghệ hiện đại. Hỗ trợ lọc theo thương hiệu, mức giá, tìm kiếm thông minh, quản lý giỏ hàng với Redux Toolkit và lưu trữ vào LocalStorage.",
     image: "/assets/b2b.jpg",
     category: "Fullstack",
