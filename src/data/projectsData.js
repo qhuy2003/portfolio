@@ -1,5 +1,18 @@
 export const projectsData = [
   {
+    id: "cinestream",
+    title: "CineStream — Movie Streaming Platform",
+    shortDesc: "Nền tảng khám phá và xem phim trực tuyến với tìm kiếm, bộ lọc phim, danh sách yêu thích và trang quản trị.",
+    longDesc: "Ứng dụng full-stack cho phép người dùng khám phá phim theo thể loại, quốc gia, năm phát hành và loại phim; xem thông tin chi tiết, phát video và lưu phim yêu thích. Tích hợp đăng nhập JWT, phân quyền quản trị, quản lý phim và thể loại, cùng khả năng đồng bộ dữ liệu từ API vào PostgreSQL.",
+    image: "/assets/cinestream.jpg",
+    category: "Full-stack",
+    tags: ["Vue 3", "Go", "Gin", "PostgreSQL", "GORM", "JWT", "REST API"],
+    githubUrl: "https://github.com/qhuy2003/movie-web",
+    demoUrl: "https://movie-web-smoky-rho.vercel.app",
+    featured: true,
+
+  },
+  {
     id: "task",
     title: "Task Management App",
     shortDesc: "Hệ thống quản lý,nhắn tin và giao việc thời gian thực dành cho doanh nghiệp, chủ cơ sở và nhân viên.",
